@@ -70,6 +70,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.Card-Retirar:hover{
+    background-color: #E2E8F0;
 }
 
 .Retirar-Imagen{
@@ -84,6 +89,7 @@
     font-size: 14px;
 }
 
+
 .Retirar-Imagen img{
     width: 64px;
     height: 64px;
@@ -95,7 +101,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
+}
+
+.Card-Recibir:hover{
+    background-color: #E2E8F0;
 }
 
 

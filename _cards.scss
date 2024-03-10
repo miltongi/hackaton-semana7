@@ -13,6 +13,12 @@
     padding: 24px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.Grids-Cards:hover{
+    background-color: #E2E8F0;
 }
 
 .Grids-Imagen{

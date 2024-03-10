@@ -6,8 +6,29 @@
   padding: 34px 0;
 }
 
+.Navegacion-Imagen1 {
+  cursor: pointer;
+}
+
 .Navegacion-Imagen2 {
   padding-left: 24px;
+  cursor: pointer;
+}
+
+.Navegacion-Imagen {
+  cursor: pointer;
+}
+
+.Navegacion-Imagen1:hover {
+  background-color: #E2E8F0;
+}
+
+.Navegacion-Imagen2:hover {
+  background-color: #E2E8F0;
+}
+
+.Navegacion-Imagen:hover {
+  background-color: #E2E8F0;
 }
 
 .Navegacion-Logo {
@@ -49,6 +70,14 @@
   color: #5B6776;
   font-size: 14px;
   padding-bottom: 36px;
+}
+
+.Card-Puntos {
+  cursor: pointer;
+}
+
+.Card-Puntos:hover {
+  background-color: #E2E8F0;
 }
 
 .Engloba {
@@ -117,6 +146,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.Card-Retirar:hover {
+  background-color: #E2E8F0;
 }
 
 .Retirar-Imagen {
@@ -141,6 +175,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.Card-Recibir:hover {
+  background-color: #E2E8F0;
 }
 
 @media (max-width: 360px) {
@@ -165,6 +204,11 @@
   padding: 24px;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+}
+
+.Grids-Cards:hover {
+  background-color: #E2E8F0;
 }
 
 .Grids-Imagen {
@@ -262,46 +306,35 @@ progress::-webkit-progress-value {
   border: 1px solid #E2EBF0;
   border-radius: 6px;
   background-color: #F7F8FD;
-  /*padding: 23px 274px 23px 27px;*/
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #E2E8F0;
 }
 
 .Button img {
-  /*margin-top: 23px;*/
   width: 40px;
   height: 40px;
 }
 
 .Button p {
-  /* margin-bottom: 23px;
-   margin-top: 14px;*/
   font-size: 18px;
   line-height: 24px;
   font-weight: 600;
   color: #4f46e5;
 }
 
+.Button p:hover {
+  color: rgba(233, 41, 41, 0.527);
+}
+
 @media (max-width: 360px) {
   .Button {
     height: 64px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #4F46E5;
-    border-radius: 6px;
-    background-color: #F7F8FD;
-  }
-  .Button img {
-    width: 40px;
-    height: 40px;
-    align-items: center;
   }
   .Button p {
-    align-items: center;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #4f46e5;
     padding-left: 12px;
   }
 }
@@ -317,4 +350,8 @@ body {
   font-family: "Inter", sans-serif;
   height: 100vh;
   padding: 0 5%;
+}
+
+.Contenedor {
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

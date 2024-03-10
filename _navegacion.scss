@@ -6,10 +6,31 @@
     justify-content: space-between;
     padding: 34px 0;
 }
+.Navegacion-Imagen1{
+    cursor: pointer;
+}
 
 .Navegacion-Imagen2{
     padding-left: 24px;
+    cursor: pointer;
 }
+
+.Navegacion-Imagen{
+    cursor: pointer;
+}
+
+.Navegacion-Imagen1:hover{
+    background-color: #E2E8F0;
+}
+
+.Navegacion-Imagen2:hover{
+    background-color: #E2E8F0 ;
+}
+
+.Navegacion-Imagen:hover{
+    background-color: #E2E8F0;
+}
+
 
 .Navegacion-Logo{
     width: 93px;
