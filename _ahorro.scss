@@ -1,0 +1,110 @@
+
+
+.Engloba{
+    display: grid;
+    grid-template-columns:repeat(1, 3fr 1fr);
+    grid-gap: 20px;
+}
+
+.Ahorro-Card{
+    /*width: 920px;*/
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E2E8F0; 
+    border-radius: 6px;
+    padding: 16px 24px 16px 24px;
+}
+
+.Ahorro-Monto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*padding: 16px 0 0 24px;*/
+}
+
+.Card-Saludo{
+    display: flex;
+    flex-direction: row;
+}
+
+.Saludo-Imagen{
+ width: 32px;
+ height: 32px;
+
+}
+.Saludo-Nombre{
+    font-size: 24px;
+    color: #121212;
+    line-height: 32px;
+    font-weight: 900;
+    padding-left: 8px;
+}
+    
+
+.Card-Monto{
+    margin-top: 21px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    /*padding-left: 24px;*/
+}
+
+.Ahorro-Cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    /*display: flex;
+    flex-direction: row;
+    justify-content:space-around;*/
+    height: 160px;
+    border: 1px solid #E2E8F0; 
+    border-radius: 6px;
+}
+
+.Card-Retirar{
+    
+    
+    /*width: 200px;*/
+    border-right: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Retirar-Imagen{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 24px;
+    align-items: center;
+}
+
+.Retirar-Imagen p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.Retirar-Imagen img{
+    width: 64px;
+    height: 64px;
+}
+
+.Card-Recibir{
+    
+    /*width: 200px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+@media (max-width: 360px){
+    
+    .Engloba{
+        display: grid;
+        grid-template-columns:(1fr);
+        grid-gap: 20px;
+    }
+
+}

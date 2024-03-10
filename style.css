@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Inter&display=swap");
+.Navegacion {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 0;
+}
+
+.Navegacion-Imagen2 {
+  padding-left: 24px;
+}
+
+.Navegacion-Logo {
+  width: 93px;
+  height: 32px;
+  display: none;
+}
+
+@media (max-width: 360px) {
+  .Navegacion {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+  .Navegacion-Logo {
+    width: 120px;
+    height: 32px;
+    display: block;
+  }
+  .Navegacion-Imagen1 {
+    display: none;
+  }
+  .Navegacion-Imagen2 {
+    padding-left: 24px;
+    display: none;
+  }
+}
+.Encabezado {
+  border-top: 1px solid #121212;
+}
+
+.Encabezado-Titulo {
+  color: #121212;
+  font-size: 32px;
+  padding-top: 36px;
+}
+
+.Encabezado-Parrafo {
+  color: #5B6776;
+  font-size: 14px;
+  padding-bottom: 36px;
+}
+
+.Engloba {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr 1fr);
+  grid-gap: 20px;
+}
+
+.Ahorro-Card {
+  /*width: 920px;*/
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 16px 24px 16px 24px;
+}
+
+.Ahorro-Monto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*padding: 16px 0 0 24px;*/
+}
+
+.Card-Saludo {
+  display: flex;
+  flex-direction: row;
+}
+
+.Saludo-Imagen {
+  width: 32px;
+  height: 32px;
+}
+
+.Saludo-Nombre {
+  font-size: 24px;
+  color: #121212;
+  line-height: 32px;
+  font-weight: 900;
+  padding-left: 8px;
+}
+
+.Card-Monto {
+  margin-top: 21px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  /*padding-left: 24px;*/
+}
+
+.Ahorro-Cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /*display: flex;
+  flex-direction: row;
+  justify-content:space-around;*/
+  height: 160px;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+}
+
+.Card-Retirar {
+  /*width: 200px;*/
+  border-right: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Retirar-Imagen {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 24px;
+  align-items: center;
+}
+
+.Retirar-Imagen p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.Retirar-Imagen img {
+  width: 64px;
+  height: 64px;
+}
+
+.Card-Recibir {
+  /*width: 200px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 360px) {
+  .Engloba {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+.Grids-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 48px;
+  margin: 24px 0;
+}
+
+.Grids-Cards {
+  height: 162px;
+  border: 1px solid #E2E8F0;
+  border-radius: 6px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Grids-Imagen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Grids-Imagen img {
+  width: 32px;
+  height: 32px;
+}
+
+.Grids-Imagen h2 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #344055;
+  padding-left: 12px;
+}
+
+.Grids-Parrafo {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #7980ba;
+  margin-top: 8px;
+}
+
+.Grids-Monto {
+  display: flex;
+  flex-direction: column;
+}
+
+.Monto-Activo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Activo {
+  color: #4f46e5;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#Inactivo {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #BBB6F7;
+}
+
+.Monto-Porcentaje {
+  color: #5B6776;
+  font-size: 14px;
+}
+
+#file {
+  width: 100%;
+  height: 20px;
+  margin-top: 8px;
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f7f8fd;
+  border-radius: 12px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #4f46e5;
+  border-radius: 12px;
+}
+
+@media (max-width: 360px) {
+  .Grids-Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+    margin: 24px 0;
+  }
+}
+.Button {
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E2EBF0;
+  border-radius: 6px;
+  background-color: #F7F8FD;
+  /*padding: 23px 274px 23px 27px;*/
+}
+
+.Button img {
+  /*margin-top: 23px;*/
+  width: 40px;
+  height: 40px;
+}
+
+.Button p {
+  /* margin-bottom: 23px;
+   margin-top: 14px;*/
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+@media (max-width: 360px) {
+  .Button {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4F46E5;
+    border-radius: 6px;
+    background-color: #F7F8FD;
+  }
+  .Button img {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+  }
+  .Button p {
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #4f46e5;
+    padding-left: 12px;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  padding: 0 5%;
+}/*# sourceMappingURL=style.css.map */

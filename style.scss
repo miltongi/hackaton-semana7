@@ -1,0 +1,25 @@
+@import '_navegacion.scss';
+@import '_encabezado.scss';
+@import '_ahorro.scss';
+@import '_cards.scss';
+@import '_button.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter&display=swap');
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    padding: 0 5%;
+ }
+

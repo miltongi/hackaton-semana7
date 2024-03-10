@@ -1,0 +1,58 @@
+.Button{
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E2EBF0;
+    border-radius: 6px;
+    background-color: #F7F8FD ;
+    /*padding: 23px 274px 23px 27px;*/
+}
+
+.Button img{
+    /*margin-top: 23px;*/
+    width: 40px;
+    height: 40px;
+}
+
+.Button p{
+   /* margin-bottom: 23px;
+    margin-top: 14px;*/
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #4f46e5;
+}
+
+
+
+
+@media (max-width: 360px){
+    
+    .Button{
+        height: 64px;
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #4F46E5;
+        border-radius: 6px;
+        background-color: #F7F8FD;
+    }
+    
+    .Button img{
+        width: 40px;
+        height: 40px;
+        align-items: center;
+    }
+    
+    .Button p{
+        align-items: center;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        color: #4f46e5;
+        padding-left: 12px;
+    }
+}

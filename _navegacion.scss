@@ -1,0 +1,50 @@
+
+
+
+.Navegacion{
+    display:flex;
+    justify-content: space-between;
+    padding: 34px 0;
+}
+
+.Navegacion-Imagen2{
+    padding-left: 24px;
+}
+
+.Navegacion-Logo{
+    width: 93px;
+    height: 32px;
+    display: none;
+}
+
+
+@media (max-width: 360px){
+   
+    
+    .Navegacion{
+        display:flex;
+        justify-content: space-between;
+        padding: 12px 0;
+    }
+
+    .Navegacion-Logo{
+        width: 120px;
+        height: 32px;
+        display: block;
+       
+        
+    }
+
+    .Navegacion-Imagen1{
+        display: none;
+ 
+    }
+    
+    .Navegacion-Imagen2{
+        padding-left: 24px;
+        display: none;
+    }
+    
+   
+
+}

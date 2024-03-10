@@ -1,0 +1,104 @@
+.Grids-Container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(2, 1fr);
+    grid-gap: 48px;
+    margin: 24px 0;
+}
+
+.Grids-Cards{
+    height: 162px;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Grids-Imagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Grids-Imagen img{
+    width: 32px;
+    height: 32px;
+}
+
+.Grids-Imagen h2{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #344055;
+    padding-left: 12px;
+}
+
+.Grids-Parrafo{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #7980ba;
+    margin-top: 8px;
+}
+
+.Grids-Monto{
+    display: flex;
+    flex-direction: column;
+}
+
+.Monto-Activo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Activo{
+    color: #4f46e5;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400; 
+}
+
+#Inactivo{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #BBB6F7;
+}
+
+.Monto-Porcentaje{
+    color: #5B6776;
+    font-size: 14px;
+}
+
+
+#file{
+    width: 100%;
+    height: 20px;
+    margin-top: 8px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar{
+    background-color: #f7f8fd;
+    border-radius: 12px;
+}
+
+progress::-webkit-progress-value{
+    background-color: #4f46e5;
+    border-radius: 12px;
+}
+
+
+@media (max-width: 360px){
+    .Grids-Container{
+        display: grid;
+        grid-template-columns:(1fr);
+        grid-template-rows:repeat(2, 1fr);
+        grid-gap: 8px;
+        margin: 24px 0;
+    }
+}
